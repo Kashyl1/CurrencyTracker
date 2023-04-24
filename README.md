@@ -77,7 +77,7 @@ http://localhost:3000
 
 `` cd CurrencyTracker_Dynatrace ``
 
-4) Create Back-end image and create an container by executing a script. Make sure that you downloaded [Docker Desktop](#dockerDesktop-installation). on your device
+4) Create Back-end image and create container by executing a script. Make sure that you downloaded [Docker Desktop](#dockerDesktop-installation). on your device
 
 ``dockerBackEnd.bat``
 
