@@ -30,7 +30,7 @@ function App() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch(`http://localhost:8888/a/${code}/${date}`);
+      const response = await fetch(`http://localhost:8080/a/${code}/${date}`);
       if (!response.ok) {
         throw new Error(`Error ${response.status}: ${await response.text()}`);
       }
@@ -45,7 +45,7 @@ function App() {
   const handleMaxMinSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch(`http://localhost:8888/a/${code2}/last/${topCount}`);
+      const response = await fetch(`http://localhost:8080/a/${code2}/last/${topCount}`);
       if (!response.ok) {
         throw new Error(`Error ${response.status}: ${await response.text()}`);
       }
@@ -60,7 +60,7 @@ function App() {
   const handleMajorDifferenceSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch(`http://localhost:8888/c/${code3}/last/${topCount1}`);
+      const response = await fetch(`http://localhost:8080/c/${code3}/last/${topCount1}`);
       if (!response.ok) {
         throw new Error(`Error ${response.status}: ${await response.text()}`);
       }
