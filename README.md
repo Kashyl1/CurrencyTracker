@@ -84,7 +84,7 @@ http://localhost:3000
  If you have already created image once and want to run the program, run this script:
  ``dockerBackStart``
 
-5) Create Front-end image and an container.
+5) Create Front-end image and container.
 
 a) go to:
 
