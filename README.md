@@ -20,6 +20,8 @@ I used two servers in my project. One is responsible for the front-end, the othe
 
 [Operations](#operations)
 
+[Information](#examples)
+
 
 # Installations
 
@@ -61,13 +63,6 @@ If you have already done it once and want to run the program, run this script:
 
 http://localhost:3000
 
-7) Now you can see an user interface in which you can click for example "Get Exchange Rate" add Currency code and date in tihs format:
-
-Currency code: USD
-
-Date:	(Choose date)
-
-
 <a id="docker-installation"></a>
 
 # Docker
@@ -106,12 +101,7 @@ If you have already created image once and want to run the program, run this scr
  6. Open your browser and go to:
  
  http://localhost:3000
- 
- 7) Now you can see an user interface in which you can click for example "Get Exchange Rate" add Currency code and date in tihs format:
 
-Currency code: USD
-
-Date:	(Choose date)
  
 <a id="maven-installation"></a>
 # Maven installation
@@ -157,4 +147,37 @@ Given a currency code and the number of last quotations N (N <= 255), provide th
 
 Given a currency code and the number of last quotations N (N <= 255), provide the major difference between the buy and ask rate (every day has different rates).
 
+ <a id="examples"></a>
 
+# Information
+
+If you did everything according to the instructions you should be able to see a page with three tabs
+
+First one "Get Exchange Rate" is responsible for showing the user information about the average exchange rate of the value for the day
+If you click it you will see two labels "Currency code" when user should imput the currency code of the value for example:
+
+U.S. Dollar currency code is "USD" so you should input "USD"
+
+Second label is "Date" this is the date that will show the user the price of the currency on that day
+
+Second tab "Get Max and Min Exchange Rates" is responsible for getting the highest and lowest exchange rate by x quotations
+If you click it you will see "Top count" label which is our quotation that must be less than 255 and the previous currency code
+
+for example: 
+
+Currency code: USD
+
+Top count: 232
+
+It will show you the maximum and minimum exchange rates from the last 232 quotations
+
+Third tab "Get Major Difference Between Bid and Ask" is responsible for getting the major difference from x quotations.
+If you click it you will see previous top count and currency code
+
+for example: 
+
+Currency code: USD
+
+Top count: 232
+
+It will show you the Major difference between bid and ask from the last 232 quotations
