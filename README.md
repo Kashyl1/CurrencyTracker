@@ -4,9 +4,30 @@ Internship task for Dynatrace
 
 This application is a simple runnable local front-end and back-end server, that exposes some endpoints which take arguments and return plain simple data after performing certain internal operations. The goal is to query data from the Narodowy Bank Polski's public APIs and return relevant information from them. 
 
-# Installation
+I used two servers in my project. One is responsible for the front-end, the other for the back-end. Both servers must be started to run the application. The front-end is written using react in Java Script and the back-end in Java
 
-A) Java installation
+
+# Table of contents
+[Java installation](#java-installation)
+
+[Docker installation](#docker-installation)
+
+[Maven installation](#maven-installation)
+
+[Node.js installation](#node-installation)
+
+[Docker Desktop installation](#docker-installation)
+
+[Operations](#operations)
+
+
+# Installations
+
+Below you can see how to install my app step by step
+
+<a id="java-installation"></a>
+
+# Java
 
 
 1. Open your terminal 
@@ -40,7 +61,16 @@ If you have already done it once and want to run the program, run this script:
 
 http://localhost:3000
 
-B) Docker installation
+7) Now you can see an user interface in which you can click for example "Get Exchange Rate" add Currency code and date in tihs format:
+
+Currency code: USD
+
+Date:	(Choose date)
+
+
+<a id="docker-installation"></a>
+
+# Docker
 
 1) Open your terminal
 
@@ -52,7 +82,7 @@ B) Docker installation
 
 `` cd CurrencyTracker_Dynatrace ``
 
-4) Create Back-end image and create an container by executing a script. Make sure that you downloaded [Docker](#docker-installation). on your device
+4) Create Back-end image and create an container by executing a script. Make sure that you downloaded [Docker Desktop](#dockerDesktop-installation). on your device
 
 ``dockerBackEnd.bat``
 
@@ -77,6 +107,12 @@ If you have already created image once and want to run the program, run this scr
  
  http://localhost:3000
  
+ 7) Now you can see an user interface in which you can click for example "Get Exchange Rate" add Currency code and date in tihs format:
+
+Currency code: USD
+
+Date:	(Choose date)
+ 
 <a id="maven-installation"></a>
 # Maven installation
  
@@ -100,7 +136,7 @@ To download Node.js, follow these steps:
 4) Once the download is complete, run the installer and follow the installation prompts
 5) After the installation is complete, open a terminal or command prompt and type "node -v" to verify that Node.js was installed correctly.
 
-<a id="docker-installation"></a>
+<a id="dockerDesktop-installation"></a>
 # Docker Installation
 
 To download Docker, follow these steps:
@@ -111,4 +147,14 @@ To download Docker, follow these steps:
 4) Once the installation is complete, open a terminal window and verify that Docker is installed by running the command "docker version".
 If Docker is installed, you should see version information for both the client and server.
  
+ <a id="operations"></a>
+
+# Operations
+
+Given a date (formatted YYYY-MM-DD) and a currency code (list: https://nbp.pl/en/statistic-and-financial-reporting/rates/table-a/), provide its average exchange rate.
+
+Given a currency code and the number of last quotations N (N <= 255), provide the max and min average value (every day has a different average).
+
+Given a currency code and the number of last quotations N (N <= 255), provide the major difference between the buy and ask rate (every day has different rates).
+
 
