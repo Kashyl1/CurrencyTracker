@@ -29,7 +29,7 @@ If you have already done it once and want to run the program, run this script:
  `` backStart.bat `` 
 
 5) Go to cd task-frontend and execute frontEndStart script to install libraries and modules needed for the frontend application to work
-   Make sure that you downloaded [Node.js](#Node-installation).
+   Make sure that you downloaded [Node.js](#node-installation).
 
 ``frontEndStart.bat``
 
@@ -53,7 +53,7 @@ B) Docker installation
 
 `` cd CurrencyTracker_Dynatrace ``
 
-4) Create Back-end image and create an container by executing a script. Make sure that you downloaded [Docker](#Docker-installation). on your device
+4) Create Back-end image and create an container by executing a script. Make sure that you downloaded [Docker](#docker-installation). on your device
 
 ``dockerBackEnd.bat``
 
@@ -79,7 +79,7 @@ If you have already created image once and want to run the program, run this scr
  http://localhost:3000
  
  
-# Maven-installation {#maven-installation}
+# maven-installation {#maven-installation}
  
 To download Maven, you can follow these steps:
 
@@ -91,7 +91,7 @@ To download Maven, you can follow these steps:
 6) To verify that Maven was installed correctly, open a command prompt and type mvn -version. If Maven was installed correctly, you should see the version of Maven displayed in the output.
 
 
-# Node-installation {#Node-installation}
+# node-installation {#Node-installation}
  
 To download Node.js, follow these steps:
 
@@ -101,7 +101,7 @@ To download Node.js, follow these steps:
 4) Once the download is complete, run the installer and follow the installation prompts
 5) After the installation is complete, open a terminal or command prompt and type "node -v" to verify that Node.js was installed correctly.
 
-# Docker-Installation {#Docker-installation}
+# docker-Installation {#Docker-installation}
 
 To download Docker, follow these steps:
 
