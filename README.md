@@ -8,7 +8,6 @@ This application is a simple runnable local front-end and back-end server, that 
 
 A) Java installation
 
-[Przykładowa sekcja](./README.md#L25)
 
 1. Open your terminal 
 
@@ -20,7 +19,7 @@ A) Java installation
 
 `` cd CurrencyTracker_Dynatrace ``
 
-4) Execute backEndStart script to create Jar file and turn on back-end server. Make sure that you have downloaded [Maven](#maven-installation).
+4) Execute backEndStart script to create Jar file and turn on back-end server. Make sure that you have downloaded [Maven](#maven-installation)
 
 ``backEndStart.bat``
 
@@ -29,7 +28,7 @@ If you have already done it once and want to run the program, run this script:
  `` backStart.bat `` 
 
 5) Go to cd task-frontend and execute frontEndStart script to install libraries and modules needed for the frontend application to work
-   Make sure that you downloaded [Node.js](#node-installation).
+   Make sure that you downloaded [Node.js](#node-installation)
 
 ``frontEndStart.bat``
 
@@ -78,8 +77,8 @@ If you have already created image once and want to run the program, run this scr
  
  http://localhost:3000
  
- 
-# maven-installation {#maven-installation}
+<a id="maven-installation"></a>
+# Maven installation
  
 To download Maven, you can follow these steps:
 
@@ -90,8 +89,8 @@ To download Maven, you can follow these steps:
 5) Add the bin directory of the Maven installation to your system's PATH variable.
 6) To verify that Maven was installed correctly, open a command prompt and type mvn -version. If Maven was installed correctly, you should see the version of Maven displayed in the output.
 
-
-# node-installation {#Node-installation}
+<a id="node-installation"></a>
+# Node installation
  
 To download Node.js, follow these steps:
 
@@ -101,7 +100,8 @@ To download Node.js, follow these steps:
 4) Once the download is complete, run the installer and follow the installation prompts
 5) After the installation is complete, open a terminal or command prompt and type "node -v" to verify that Node.js was installed correctly.
 
-# docker-Installation {#Docker-installation}
+<a id="docker-installation"></a>
+# Docker Installation
 
 To download Docker, follow these steps:
 
@@ -111,6 +111,4 @@ To download Docker, follow these steps:
 4) Once the installation is complete, open a terminal window and verify that Docker is installed by running the command "docker version".
 If Docker is installed, you should see version information for both the client and server.
  
-
-
 
