@@ -1,6 +1,5 @@
-# CurrencyTracker_Dynatrace
+# CurrencyTracker
 
-Internship task for Dynatrace
 
 This application is a simple runnable local front-end and back-end server, that exposes some endpoints which take arguments and return plain simple data after performing certain internal operations. The goal is to query data from the Narodowy Bank Polski's public APIs and return relevant information from them. 
 
